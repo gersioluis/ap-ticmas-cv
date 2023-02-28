@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="windows-1252">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>CV: Sergio Trevisán</title>
+  <script src="cv.js">
+    // mostrarInformacion: oculta o visibiliza paneles
+  </script>
+  <style>
+    figure#escracho { width: 70% }
+  </style>
+</head>
+<body>
+  <header class="w3-container w3-border-bottom w3-red">
+    <p>Aquí va un despliegue de información que no tiene precedente en la historia de la humanidad; un compendio de cursos, talleres y experimentaciones que dejarán boquiabierto al más exigente de los patroncitos.</p>
+    <h1><i lang="la">curriculum vitae</i></h1>
+    <nav class="w3-bar w3-black">
+      <button class="w3-bar-item w3-button" onclick="mostrarInformacion('ip')">datos</a>
+      <button class="w3-bar-item w3-button" onclick="mostrarInformacion('el')">trabajos</a>
+      <button class="w3-bar-item w3-button" onclick="mostrarInformacion('ef')">formación</a>
+    </nav>
+  </header>
+  <section id="ip" class="w3-container w3-border-bottom w3-teal seccion">
+    <!-- informción personal -->
+    <h2>Información personal</h2>
+    <p>Nací en Mocoretá -un pueblito del sur de Corrientes- en el año 1974 en la casa de mi abuela; me criaron en Chajarí -un pueblo un poco más grande ubicado en el norte entreriano; allí fui a la escuela y completé la escuela secundaria.</p>
+    <p>En 1993 me vine a Paraná -donde sigo viviendo- a estudiar ingeniería... hice unos cuatro años y abandoné porque había empezado a trabajar, eran los noventa, y no había aprendido del esfuerzo que habían hecho mis padres para mantenerme aquellos primeros dos años y medio (¡casi tres!) de aventura.</p>
+    <figure id="escracho" class="w3-card-4">
+      <div class="w3-container">
+        <h3>Sergio Trevisán</h3>
+        <picture>
+          <source srcset="antifaz150.png 150w, antifaz500.png 500w" sizes="(max-width: 720px) 150px, 500px">
+          <img alt="Un exótico perro con un curioso antifaz rodeado de plantas." src="antifaz500.png">
+        </picture>
+        <p>correo electrónico: elgersio.t@gmail.com</p>
+      </div>
+    </figure>
+  </section>
+  <section id="el" class="w3-container w3-border-bottom w3-green seccion" style="display: none">
+    <!-- experiencia laboral -->
+    <h2>Experiencia laboral</h2>
+    <p>Puedo decir con la frente bien alta que me he desempeñado con mucha responsabilidad en todas las tareas que me han asignado en mis tiempos de juventud y algarabía. Ahora puedo hacer las veces de un viejo empacado.</p>
+    <h3>Secretario administrativo</h3>
+    <p>Trabajé en una oficina en la que nos dedicábamos a la administración de consorcios de propietrios de departamentos. Tenía a mi cargo la distribución de los gastos proporcionalmente en función de las características de la mejora y el peso de cada posible usuario.</p>
+    <h3>Sericio técnico</h3>
+    <p>Trabajé en el mantenimiento de las máquinas expendedoras de boletos de los colectivos de recorrido urbano de Paraná y Santa Fe. El trabajo consistía en reparación de las máquinas propiamente dichas y el mantenimiento del sistema de cruce de información entre las distintas empresas.</p>
+    <p>En esta misma empresa hice también un poco de programación: desarrollé una librería de comunicaciones para enlazar un gestor de estacionamiento medido en cocheras al registrador fiscal que la AFIP empezaba a usar... hace mucho tiempo de todo esto.</p>
+    <h3>Programador</h3>
+    <p>Actualmente me estoy dedicando a la programación de microcontroladores... Como todavía la cuestión no alcanza para sobrevivir estoy trabajando como administrativo en un comercio y ahí hago de todo un poco -inclusive algún mínimo desarrollo para la web.</p>
+  </section>
+  <section id="ef" class="w3-container w3-border-bottom w3-yellow seccion" style="display: none">
+    <!-- formación -->
+    <h2>Educación</h2>
+    <p>He estudiado lo justo y necesario como para que me den el trabajo que ofrecen en los avisos clasificados.</p>
+    <h3>Escuela secundaria</h3>
+    <p>Como ya dije anteriormente terminé la escuela en Chajarí dondé me recibí de bachiller mercantil.</p>
+    <p>Paralelamente estudié inglés en un instituto privado... nada más que agregar.</p>
+    <h3>Universidad</h3>
+    <p>Anteriormente mencioné que me vine a Paraná a estudiar; hice cuatro años de ingeniería electrónica y tuve que abandonar... por flojo nomás.</p>
+    <p>Ahora estoy cursando en la facultad de ingeniería de la UNER... me metí en ingeniería en transporte... veremos qué sale.</p>
+    <h3>Otros saberes</h3>
+    <p>Mientras iban y venían los años, las materias, los comienzos y las renuncias, hice música, danza, teatro, algo muy chiquito en cine y una publicidad para la tele.</p>
+    <p>Algo tiene que salir de todo esto.</p>
+  </section>
+  <footer class="w3-container w3-gray">
+    <address>Por certificaciones de la veracidad de lo expuesto remitirse a <a href="mailto:papa.francisco@vaticano.vt">Papa Francisco</a>.</address>
+  </footer>
+</body>
+</html>
